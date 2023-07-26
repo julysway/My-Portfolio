@@ -6,6 +6,7 @@
     <meta name="description" content="My portfolio,my work and my life. Hi, I'm Giuliana and I'm a Full Stack Web Developer">
     <meta property="og:title" content="My Full Stack Web Developer Portfolio | Giuliana Magrì">
     <meta property="og:description" content="My portfolio,my work and my life. Hi, I'm Giuliana and I'm a Full Stack Web Developer">
+    <meta property="og:image" content="file:///C:/Users/Giuliana/Desktop/Portfolio/assets/images/home.jpg">
     <meta property="og:type" content="website">
     <meta name="keywords" content="Giuliana, full stack, portfolio, italy, rome, giulianawebdev, remote work,  work from home,  italy web developer, full stack developer, web developer, web developer job">
     <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/51be47a0e4b09edc5f81f8cd/1501043022816-W75NL6ZGX7PG5R5TVSBN/favicon.ico?format=100w"/>
@@ -13,55 +14,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Oooh+Baby&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/home.css">
     <title>Giuliana Magrì Web Developer</title>
 </head>
 
 
 <body>
-    <div class="menu">
-        <nav>
-        <div class="logo">Giuliana Magrì</div>
-        <ul>
+
+
+    <div class="header">
+        <div class="logo"><a class="return" href="index.html">Giuliana Magrì</a></div>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
         <li><a class="skills" href="#section-1">SKILLS</a></li>
         <li><a class="about" href="aboutme.html">ABOUT ME</a></li>
         <li><a class="work" href="#section-2">PROJECTS</a></li>
         <li><a class="contact" href="#section-3">CONTACT</a></li>
         </ul>
-    </nav>
-    </div>
+    </div>   
+ 
+    <div style='padding-top: 60px'></div>
+
 
     <div class="header-grid">
         <div class="photo">
-            <img src="assets/images/home.jpg" alt="photo">
+            <img src="assets/images/home.jpg" alt="photo" style="max-width: 500px;">
         </div>
         <div class="present">
             <h1>Hi there, I'm <span>Giuliana</span></h1><br>
             <h2>I'm a Full Stack Web Developer based in Rome, Italy.</h2>
     </div>
 </div>
-   
-    <section id="section-1">
+
+
+<section id="section-1">
     <div class="title"><h2>Skills<span>.</span></h2></div>
-    <div class="skill-grid">
-        <div class="skill-text">
-        <div class="html"><img src="assets/images/html5.svg" alt="html"></i></div>
-        <h3>FrontEnd</h3>
-        <p>HTML</p>
-        <P>CSS</P>
-    </div>
-    <div class="skill-text">
-            <div class="back"><img src="assets/images/back-end.svg" alt="backend"></div>
-            <h3>BackEnd</h3>
-            <p>Work in Progress!</p>
-            <p>Work in Progress!</p>
-        </div>
-        <div class="skill-text">
-            <div class="tools"><img src="assets/images/tools.svg" alt="tools"></div>
-            <h3>Tools</h3>
-            <p>Git</p>
-            <p>GitHub</p>
-            <p>VSCode</p> 
-        </div>
+    <div class="skill">
+
+    <li><h3>html</h3>
+      <span class="bar"><span class="html"></span></span>
+    </li>
+
+    <li><h3>css</h3>
+      <span class="bar"><span class="css"></span></span>
+    </li>
+
+    <li><h3>vscode</h3>
+      <span class="bar"><span class="vscode"></span></span>
+    </li>
+
+    <li><h3>git</h3>
+      <span class="bar"><span class="git"></span></span>
+    </li>
+
+    <li><h3>github</h3>
+      <span class="bar"><span class="github"></span></span>
+    </li>
     </div>
 </section>
 
@@ -69,7 +78,7 @@
 <section id="section-2">
     <div class="title"><h2>Project<span>.</span></h2></div>
     <div class="project-grid">
-        <div class="project">
+        <div class="project-box">
             <div class="project-animation">
             <span>S</span>
             <span>T</span>
@@ -84,7 +93,7 @@
         </div>
         </div>
 
-        <div class="project">
+        <div class="project-box">
         <div class="project-animation">
             <span>S</span>
             <span>T</span>
@@ -99,7 +108,7 @@
         </div>
         </div>
 
-        <div class="project">
+        <div class="project-box">
             <div class="project-animation">
                 <span>S</span>
                 <span>T</span>
@@ -114,18 +123,18 @@
         </div>
         </div>
 
-        <div class="project">
+        <div class="project-box">
             <div class="project-animation">
-                <span>L</span>
-                <span>O</span>
+                <span>S</span>
+                <span>T</span>
                 <span>A</span>
-                <span>D</span>
-                <span>I</span>
+                <span>Y</span>
+                <span>T</span>
+                <span>U</span>
                 <span>N</span>
-                <span>G</span>
-                <span>.</span>
-                <span>.</span>
-                <span>.</span>
+                <span>E</span>
+                <span>D</span>
+                <span>!</span>
             </div> 
         </div>
      </div>
@@ -143,18 +152,20 @@
 
         <div class="contact-box">
             <div class="li"><img src="assets/images/linkedin.svg" alt="linkedin"></div>
-            <a href="https://www.linkedin.com/?original_referer=" target="_blank">
+            <a href="https://www.linkedin.com/in/giuliana-magri-1a4842285/" target="_blank">
                 <p>Let's connect!</p>
             </a>
         </div>
 
         <div class="contact-box">
-            <div class="git"><img src="assets/images/github.svg" alt="github"></div>
+            <div class="gith"><img src="assets/images/github.svg" alt="github"></div>
             <a href="https://github.com/julysway/My-Portfolio" target="_blank">
                 <p>Check out my repos.</p>
             </a>
         </div>
     </div>
 </section>
+
+
 </body>
 </html>
