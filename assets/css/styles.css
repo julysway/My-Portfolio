@@ -196,7 +196,7 @@
 
   @media screen and (min-width: 275px) and (max-width: 479px) {
     .header .logo {
-      font-size: 20px;
+      font-size: 22px;
     } 
   }
 
@@ -311,6 +311,20 @@
     .contact-box {
       padding: 5px;
     }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #1d1d1f;
+  }
+
+
+  .footer p {
+    color: #81D8D0;
+    font-size: 16px;
   }
 
 
